@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+small,
+div {
+  font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.fixed-width {
+  width: 73%;
+  margin: auto;
+}
+.mobile {
+  margin-bottom: 30px;
+}
+.mobile img {
+  margin-top: 10px;
+}
+.mobile-bottom {
+  margin-bottom: 40px;
+}
+.mb-left {
+}
+.mb-left input {
+  width: 1033px;
+  height: 50px;
+}
+.mb-right {
+}
+.mb-right span {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  width: 60px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.item {
+}
+.item ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 18px;
+}
+.item ul li {
+  display: inline-block;
+}
+.item ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  font-size: 12px;
+}
+.item ul li a:hover {
+  text-decoration: underline;
+}
+.top-part {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px 0;
+}
+.main {
+  text-align: center;
+  margin-top: 50px;
+}
+.main a {
+  display: inline-block;
+  color: #999999;
+  font-size: 13px;
+}
+.main span {
+  display: inline-block;
+  color: #999999;
+  font-size: 13px;
+  font-weight: 300;
+}
+.uporer-part {
+}
+.uporer-part table {
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+.uporer-part table tr {
+}
+.uporer-part table td {
+  border: 1px solid #dddd;
+  padding: 10px 10px;
+}
+.uporer-part table td.tb-data {
+  position: relative;
+  left: 4px;
+}
+.m31-table {
+}
+.m31-inner-table {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.m31-inner-table table {
+  text-align: center;
+  display: inline-block;
+  border-collapse: collapse;
+}
+.m31-inner-table table tr {
+}
+.m31-inner-table table tr td {
+  padding: 10px 15px;
+  border-collapse: collapse;
+  font-size: 14px;
+  border: 2px solid #ddd;
+  text-align: left;
+}
+.m31-inner-table table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.m31-inner-table table tr td strong {
+  font-weight: 500;
+  font-size: 16px;
+}
+.m31-inner-table table tr td.bbb {
+  /* padding: 0 150px; */
+}
+.dag {
+  width: 100px;
+  height: 2px;
+  background-color: #2c2f34;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.paragraph {
+}
+.paragraph p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.7rem;
+  font-weight: 300;
+}
+.pros-table {
+}
+.pros-inner-table {
+  display: inline-block;
+  text-align: center;
+}
+.pros-inner-table table {
+  border-collapse: collapse;
+  width: 570px;
+  margin: 30px 0;
+}
+.pros-inner-table table tr {
+}
+.pros-inner-table table tr td {
+  text-align: left;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid #dddd;
+}
+.pros-inner-table table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.pros-inner-table table tr td strong {
+  font-weight: 500;
+}
+.score {
+}
+.innter-score {
+  width: 900px;
+  height: 5px;
+  background-color: #08f;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.innter-score h5 {
+  position: relative;
+  top: -25px;
+}
+.innter-white {
+  width: 100px;
+  height: 5px;
+  background-color: #e4e4e4;
+  margin-left: 900px;
+  margin-top: -20px;
+}
+.brrr {
+  border: 2px solid #ddd;
+  padding: 30px 0;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+.mobile-score {
+  padding-bottom: 30px;
+}
+.mobile-score-innter {
+  border: 2px solid #ddd;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+.mobile-socre-left {
+  border-right: 1px solid #c6c6c6;
+  height: 50px;
+  padding: 30px 0;
+}
+.mobile-socre-left p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  padding-right: 450px;
+}
+.mobile-socre-right h1 {
+  color: #08f;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.news-article {
+}
+.news-article-innter {
+  border: 1px solid #ddd;
+  width: 60%;
+  margin: auto;
+}
+.bews-img-1 {
+  padding: 10px 10px;
+}
+.bews-img-1 img {
+  width: 140px;
+}
+.bews-img-1 a {
+  display: block;
+  text-decoration: none;
+  color: #08f;
+  font-size: 14px;
+}
+.bews-img-1 a:hover {
+  text-decoration: underline;
+}
+.bews-img-1 h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.oficial {
+}
+.oficial-inner {
+  border: 1px solid #ddd;
+  width: 60%;
+  margin: auto;
+  background-color: #f7f7f7;
+}
+.oficial-inner img {
+  width: 140px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.oficial-inner a {
+  display: block;
+  text-decoration: none;
+  color: #08f;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.oficial-inner p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.oficial-inner a:hover {
+  text-decoration: underline;
+}
+.of-in {
+}
+.more-dag {
+  width: 100px;
+  height: 2px;
+  background-color: #2c2f34;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.samsung {
+}
+.samsung-item {
+}
+.samsung-inner-item-1 {
+  margin-left: 332px;
+  width: 20%;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+.samsung-inner-item-1 img {
+  width: 150px;
+}
+.samsung-inner-item-1 a {
+  text-decoration: none;
+  color: #08f;
+}
+.samsung-inner-item-1 a:hover {
+  text-decoration: underline;
+}
+.samsung-inner-item-2 img {
+  width: 150px;
+}
+.samsung-inner-item-2 {
+  width: 20%;
+  margin-right: 330px;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+.samsung-inner-item-2 a {
+  text-decoration: none;
+  color: #08f;
+}
+.samsung-inner-item-2 a:hover {
+  text-decoration: underline;
+}
+.serial {
+  margin-bottom: 30px;
+}
+.serial-item {
+  margin-left: 50px;
+}
+.serial-item span {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.serial-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+.serial-item ul li {
+  display: inline-block;
+}
+.serial-item ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #08f;
+}
+.serial-item ul li a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+.footer-left {
+  width: 48%;
+}
+.footer-left p {
+  font-size: 12px;
+}
+.footer-right {
+  width: 48%;
+}
+.footer-right ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+.footer-right ul li {
+  display: inline-block;
+  font-size: 12px;
+}
+.footer-right ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 2px;
+  font-size: 12px;
+}
